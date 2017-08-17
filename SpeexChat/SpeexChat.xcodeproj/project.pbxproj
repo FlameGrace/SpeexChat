@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC2CD1BD3D055588AA1990A /* libPods-SpeexChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568FA7B314449EBC6EDDD9F /* libPods-SpeexChat.a */; };
+		8630CCE21F260AC800243A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CCE11F260AC800243A93 /* main.m */; };
+		8630CCE51F260AC800243A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CCE41F260AC800243A93 /* AppDelegate.m */; };
+		8630CCE81F260AC800243A93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CCE71F260AC800243A93 /* ViewController.m */; };
+		8630CCEB1F260AC800243A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8630CCE91F260AC800243A93 /* Main.storyboard */; };
+		8630CCED1F260AC800243A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8630CCEC1F260AC800243A93 /* Assets.xcassets */; };
+		8630CCF01F260AC800243A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8630CCEE1F260AC800243A93 /* LaunchScreen.storyboard */; };
+		8630CCFB1F260AC800243A93 /* SpeexChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CCFA1F260AC800243A93 /* SpeexChatTests.m */; };
+		8630CD061F260AC800243A93 /* SpeexChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD051F260AC800243A93 /* SpeexChatUITests.m */; };
+		8630CD4E1F260B6D00243A93 /* AQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD161F260B6D00243A93 /* AQRecorder.mm */; };
+		8630CD4F1F260B6D00243A93 /* Decapsulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD181F260B6D00243A93 /* Decapsulator.m */; };
+		8630CD501F260B6D00243A93 /* Encapsulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD1A1F260B6D00243A93 /* Encapsulator.m */; };
+		8630CD511F260B6D00243A93 /* RawAudioDataPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD1C1F260B6D00243A93 /* RawAudioDataPlayer.m */; };
+		8630CD521F260B6D00243A93 /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD1F1F260B6D00243A93 /* SpeexCodec.m */; };
+		8630CD531F260B6D00243A93 /* OggSpeexFormatConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD221F260B6D00243A93 /* OggSpeexFormatConversion.m */; };
+		8630CD541F260B6D00243A93 /* OggSpeexWavConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD241F260B6D00243A93 /* OggSpeexWavConversion.m */; };
+		8630CD551F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD271F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.m */; };
+		8630CD561F260B6D00243A93 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8630CD281F260B6D00243A93 /* libogg.a */; };
+		8630CD571F260B6D00243A93 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8630CD291F260B6D00243A93 /* libspeex.a */; };
+		8630CD581F260B6D00243A93 /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8630CD2A1F260B6D00243A93 /* libspeexdsp.a */; };
+		8630CD591F260B6D00243A93 /* speexdsp_config_types.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 8630CD3E1F260B6D00243A93 /* speexdsp_config_types.h.in */; };
+		8630CD5A1F260B6D00243A93 /* OggSpeexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD411F260B6D00243A93 /* OggSpeexManager.m */; };
+		8630CD5B1F260B6D00243A93 /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD431F260B6D00243A93 /* PlayerManager.m */; };
+		8630CD5C1F260B6D00243A93 /* CADebugMacros.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD461F260B6D00243A93 /* CADebugMacros.mm */; };
+		8630CD5D1F260B6D00243A93 /* CAStreamBasicDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD491F260B6D00243A93 /* CAStreamBasicDescription.mm */; };
+		8630CD5E1F260B6D00243A93 /* CAXException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD4B1F260B6D00243A93 /* CAXException.mm */; };
+		8630CD5F1F260B6D00243A93 /* RecorderManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD4D1F260B6D00243A93 /* RecorderManager.mm */; };
+		8630CD7A1F260B9700243A93 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD631F260B9700243A93 /* ChatTableViewCell.m */; };
+		8630CD7B1F260B9700243A93 /* ChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD661F260B9700243A93 /* ChatInputView.m */; };
+		8630CD7C1F260B9700243A93 /* ChatView+Broswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD681F260B9700243A93 /* ChatView+Broswer.m */; };
+		8630CD7D1F260B9700243A93 /* ChatView+SpeexVoiceProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD6A1F260B9700243A93 /* ChatView+SpeexVoiceProcess.m */; };
+		8630CD7E1F260B9700243A93 /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD6C1F260B9700243A93 /* ChatView.m */; };
+		8630CD7F1F260B9700243A93 /* ChatView_NoReadNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD6E1F260B9700243A93 /* ChatView_NoReadNumber.m */; };
+		8630CD801F260B9700243A93 /* ChatImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD711F260B9700243A93 /* ChatImageView.m */; };
+		8630CD811F260B9700243A93 /* ChatPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD731F260B9700243A93 /* ChatPartView.m */; };
+		8630CD821F260B9700243A93 /* ChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD751F260B9700243A93 /* ChatTextView.m */; };
+		8630CD841F260B9700243A93 /* ChatVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD791F260B9700243A93 /* ChatVoiceView.m */; };
+		8630CD891F260D7800243A93 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD881F260D7800243A93 /* ChatModel.m */; };
+		8630CD901F260F3E00243A93 /* UIImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD8D1F260F3E00243A93 /* UIImageBrowser.m */; };
+		8630CD941F260F8700243A93 /* NSFileManager+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD931F260F8700243A93 /* NSFileManager+Tools.m */; };
+		8630CD971F26109000243A93 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD961F26109000243A93 /* NSString+Extension.m */; };
+		8630CD9A1F2611F700243A93 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD991F2611F700243A93 /* NSDate+Extension.m */; };
+		8630CD9D1F26123D00243A93 /* UIView+FrameTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD9C1F26123D00243A93 /* UIView+FrameTools.m */; };
+		8630CDA01F26141000243A93 /* ChatAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CD9F1F26141000243A93 /* ChatAlertView.m */; };
+		8630CDA31F26D57600243A93 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDA21F26D57600243A93 /* ChatViewController.m */; };
+		8630CDAE1F26DBD500243A93 /* CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDA71F26DBD500243A93 /* CoreDataContext.m */; };
+		8630CDAF1F26DBD500243A93 /* CoreDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDA91F26DBD500243A93 /* CoreDataModelManager.m */; };
+		8630CDB01F26DBD500243A93 /* CoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDAD1F26DBD500243A93 /* CoreDataModel.m */; };
+		8630CDE41F2717E400243A93 /* Chat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDE11F2717E400243A93 /* Chat.m */; };
+		8630CDEC1F27182F00243A93 /* ChatModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDE71F27182F00243A93 /* ChatModelManager.m */; };
+		8630CDF31F2718CC00243A93 /* ChatRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDF01F2718CC00243A93 /* ChatRecordView.m */; };
+		8630CDF41F2718CC00243A93 /* MJRefreshSimpleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDF21F2718CC00243A93 /* MJRefreshSimpleHeader.m */; };
+		8630CDF71F2721E800243A93 /* ChatPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDF61F2721E800243A93 /* ChatPerson.m */; };
+		8630CDFA1F2721FB00243A93 /* ChatPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDF91F2721FB00243A93 /* ChatPersonModel.m */; };
+		8630CDFD1F2722E800243A93 /* ChatPersonModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDFC1F2722E800243A93 /* ChatPersonModelManager.m */; };
+		8630CE011F27277500243A93 /* ChatPersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDFF1F27277500243A93 /* ChatPersonTableViewCell.m */; };
+		8630CE021F27277500243A93 /* ChatPersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8630CE001F27277500243A93 /* ChatPersonTableViewCell.xib */; };
+		8630CE031F2731DF00243A93 /* Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8630CDB11F26DC0400243A93 /* Chat.xcdatamodeld */; };
+		8670E37E1F45450E00BC4A8F /* Person.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8670E37D1F45450E00BC4A8F /* Person.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8630CCF71F260AC800243A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8630CCD51F260AC800243A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8630CCDC1F260AC800243A93;
+			remoteInfo = SpeexChat;
+		};
+		8630CD021F260AC800243A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8630CCD51F260AC800243A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8630CCDC1F260AC800243A93;
+			remoteInfo = SpeexChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A28C898CE661D03CA027AA7 /* Pods-SpeexChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeexChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeexChat/Pods-SpeexChat.release.xcconfig"; sourceTree = "<group>"; };
+		2568FA7B314449EBC6EDDD9F /* libPods-SpeexChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeexChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630CCDD1F260AC800243A93 /* SpeexChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeexChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630CCE11F260AC800243A93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8630CCE31F260AC800243A93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8630CCE41F260AC800243A93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8630CCE61F260AC800243A93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8630CCE71F260AC800243A93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8630CCEA1F260AC800243A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8630CCEC1F260AC800243A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8630CCEF1F260AC800243A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8630CCF11F260AC800243A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8630CCF61F260AC800243A93 /* SpeexChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeexChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630CCFA1F260AC800243A93 /* SpeexChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeexChatTests.m; sourceTree = "<group>"; };
+		8630CCFC1F260AC800243A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8630CD011F260AC800243A93 /* SpeexChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeexChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630CD051F260AC800243A93 /* SpeexChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeexChatUITests.m; sourceTree = "<group>"; };
+		8630CD071F260AC800243A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8630CD151F260B6D00243A93 /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
+		8630CD161F260B6D00243A93 /* AQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQRecorder.mm; sourceTree = "<group>"; };
+		8630CD171F260B6D00243A93 /* Decapsulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decapsulator.h; sourceTree = "<group>"; };
+		8630CD181F260B6D00243A93 /* Decapsulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decapsulator.m; sourceTree = "<group>"; };
+		8630CD191F260B6D00243A93 /* Encapsulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encapsulator.h; sourceTree = "<group>"; };
+		8630CD1A1F260B6D00243A93 /* Encapsulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encapsulator.m; sourceTree = "<group>"; };
+		8630CD1B1F260B6D00243A93 /* RawAudioDataPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawAudioDataPlayer.h; sourceTree = "<group>"; };
+		8630CD1C1F260B6D00243A93 /* RawAudioDataPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RawAudioDataPlayer.m; sourceTree = "<group>"; };
+		8630CD1D1F260B6D00243A93 /* SpeexAllHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexAllHeaders.h; sourceTree = "<group>"; };
+		8630CD1E1F260B6D00243A93 /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexCodec.h; sourceTree = "<group>"; };
+		8630CD1F1F260B6D00243A93 /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexCodec.m; sourceTree = "<group>"; };
+		8630CD211F260B6D00243A93 /* OggSpeexFormatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OggSpeexFormatConversion.h; sourceTree = "<group>"; };
+		8630CD221F260B6D00243A93 /* OggSpeexFormatConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OggSpeexFormatConversion.m; sourceTree = "<group>"; };
+		8630CD231F260B6D00243A93 /* OggSpeexWavConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OggSpeexWavConversion.h; sourceTree = "<group>"; };
+		8630CD241F260B6D00243A93 /* OggSpeexWavConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OggSpeexWavConversion.m; sourceTree = "<group>"; };
+		8630CD261F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioSessionPlayCateGoryTool.h; sourceTree = "<group>"; };
+		8630CD271F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioSessionPlayCateGoryTool.m; sourceTree = "<group>"; };
+		8630CD281F260B6D00243A93 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
+		8630CD291F260B6D00243A93 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeex.a; sourceTree = "<group>"; };
+		8630CD2A1F260B6D00243A93 /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeexdsp.a; sourceTree = "<group>"; };
+		8630CD2C1F260B6D00243A93 /* config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_types.h; sourceTree = "<group>"; };
+		8630CD2D1F260B6D00243A93 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		8630CD2E1F260B6D00243A93 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		8630CD301F260B6D00243A93 /* speex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex.h; sourceTree = "<group>"; };
+		8630CD311F260B6D00243A93 /* speex_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_bits.h; sourceTree = "<group>"; };
+		8630CD321F260B6D00243A93 /* speex_callbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_callbacks.h; sourceTree = "<group>"; };
+		8630CD331F260B6D00243A93 /* speex_config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_config_types.h; sourceTree = "<group>"; };
+		8630CD341F260B6D00243A93 /* speex_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_header.h; sourceTree = "<group>"; };
+		8630CD351F260B6D00243A93 /* speex_stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_stereo.h; sourceTree = "<group>"; };
+		8630CD361F260B6D00243A93 /* speex_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_types.h; sourceTree = "<group>"; };
+		8630CD381F260B6D00243A93 /* speex_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_buffer.h; sourceTree = "<group>"; };
+		8630CD391F260B6D00243A93 /* speex_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_echo.h; sourceTree = "<group>"; };
+		8630CD3A1F260B6D00243A93 /* speex_jitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_jitter.h; sourceTree = "<group>"; };
+		8630CD3B1F260B6D00243A93 /* speex_preprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_preprocess.h; sourceTree = "<group>"; };
+		8630CD3C1F260B6D00243A93 /* speex_resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_resampler.h; sourceTree = "<group>"; };
+		8630CD3D1F260B6D00243A93 /* speexdsp_config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speexdsp_config_types.h; sourceTree = "<group>"; };
+		8630CD3E1F260B6D00243A93 /* speexdsp_config_types.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = speexdsp_config_types.h.in; sourceTree = "<group>"; };
+		8630CD3F1F260B6D00243A93 /* speexdsp_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speexdsp_types.h; sourceTree = "<group>"; };
+		8630CD401F260B6D00243A93 /* OggSpeexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OggSpeexManager.h; sourceTree = "<group>"; };
+		8630CD411F260B6D00243A93 /* OggSpeexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OggSpeexManager.m; sourceTree = "<group>"; };
+		8630CD421F260B6D00243A93 /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		8630CD431F260B6D00243A93 /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
+		8630CD451F260B6D00243A93 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		8630CD461F260B6D00243A93 /* CADebugMacros.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CADebugMacros.mm; sourceTree = "<group>"; };
+		8630CD471F260B6D00243A93 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		8630CD481F260B6D00243A93 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		8630CD491F260B6D00243A93 /* CAStreamBasicDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CAStreamBasicDescription.mm; sourceTree = "<group>"; };
+		8630CD4A1F260B6D00243A93 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		8630CD4B1F260B6D00243A93 /* CAXException.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CAXException.mm; sourceTree = "<group>"; };
+		8630CD4C1F260B6D00243A93 /* RecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderManager.h; sourceTree = "<group>"; };
+		8630CD4D1F260B6D00243A93 /* RecorderManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecorderManager.mm; sourceTree = "<group>"; };
+		8630CD621F260B9700243A93 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		8630CD631F260B9700243A93 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		8630CD641F260B9700243A93 /* ChatViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewProtocol.h; sourceTree = "<group>"; };
+		8630CD651F260B9700243A93 /* ChatInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatInputView.h; sourceTree = "<group>"; };
+		8630CD661F260B9700243A93 /* ChatInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatInputView.m; sourceTree = "<group>"; };
+		8630CD671F260B9700243A93 /* ChatView+Broswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatView+Broswer.h"; sourceTree = "<group>"; };
+		8630CD681F260B9700243A93 /* ChatView+Broswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChatView+Broswer.m"; sourceTree = "<group>"; };
+		8630CD691F260B9700243A93 /* ChatView+SpeexVoiceProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatView+SpeexVoiceProcess.h"; sourceTree = "<group>"; };
+		8630CD6A1F260B9700243A93 /* ChatView+SpeexVoiceProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChatView+SpeexVoiceProcess.m"; sourceTree = "<group>"; };
+		8630CD6B1F260B9700243A93 /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView.h; sourceTree = "<group>"; };
+		8630CD6C1F260B9700243A93 /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView.m; sourceTree = "<group>"; };
+		8630CD6D1F260B9700243A93 /* ChatView_NoReadNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView_NoReadNumber.h; sourceTree = "<group>"; };
+		8630CD6E1F260B9700243A93 /* ChatView_NoReadNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView_NoReadNumber.m; sourceTree = "<group>"; };
+		8630CD701F260B9700243A93 /* ChatImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatImageView.h; sourceTree = "<group>"; };
+		8630CD711F260B9700243A93 /* ChatImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatImageView.m; sourceTree = "<group>"; };
+		8630CD721F260B9700243A93 /* ChatPartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPartView.h; sourceTree = "<group>"; };
+		8630CD731F260B9700243A93 /* ChatPartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPartView.m; sourceTree = "<group>"; };
+		8630CD741F260B9700243A93 /* ChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTextView.h; sourceTree = "<group>"; };
+		8630CD751F260B9700243A93 /* ChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTextView.m; sourceTree = "<group>"; };
+		8630CD781F260B9700243A93 /* ChatVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatVoiceView.h; sourceTree = "<group>"; };
+		8630CD791F260B9700243A93 /* ChatVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatVoiceView.m; sourceTree = "<group>"; };
+		8630CD871F260D7800243A93 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		8630CD881F260D7800243A93 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		8630CD8A1F260DE000243A93 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8630CD8C1F260F3D00243A93 /* UIImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageBrowser.h; sourceTree = "<group>"; };
+		8630CD8D1F260F3E00243A93 /* UIImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageBrowser.m; sourceTree = "<group>"; };
+		8630CD921F260F8700243A93 /* NSFileManager+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Tools.h"; sourceTree = "<group>"; };
+		8630CD931F260F8700243A93 /* NSFileManager+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Tools.m"; sourceTree = "<group>"; };
+		8630CD951F26109000243A93 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		8630CD961F26109000243A93 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		8630CD981F2611F700243A93 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		8630CD991F2611F700243A93 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		8630CD9B1F26123D00243A93 /* UIView+FrameTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameTools.h"; sourceTree = "<group>"; };
+		8630CD9C1F26123D00243A93 /* UIView+FrameTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameTools.m"; sourceTree = "<group>"; };
+		8630CD9E1F26141000243A93 /* ChatAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatAlertView.h; sourceTree = "<group>"; };
+		8630CD9F1F26141000243A93 /* ChatAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatAlertView.m; sourceTree = "<group>"; };
+		8630CDA11F26D57600243A93 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		8630CDA21F26D57600243A93 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		8630CDA61F26DBD500243A93 /* CoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContext.h; sourceTree = "<group>"; };
+		8630CDA71F26DBD500243A93 /* CoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContext.m; sourceTree = "<group>"; };
+		8630CDA81F26DBD500243A93 /* CoreDataModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataModelManager.h; sourceTree = "<group>"; };
+		8630CDA91F26DBD500243A93 /* CoreDataModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataModelManager.m; sourceTree = "<group>"; };
+		8630CDAA1F26DBD500243A93 /* CoreDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataModelManagerProtocol.h; sourceTree = "<group>"; };
+		8630CDAC1F26DBD500243A93 /* CoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataModel.h; sourceTree = "<group>"; };
+		8630CDAD1F26DBD500243A93 /* CoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataModel.m; sourceTree = "<group>"; };
+		8630CDB21F26DC0400243A93 /* Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat.xcdatamodel; sourceTree = "<group>"; };
+		8630CDB41F26DC5800243A93 /* CoreDataModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataModelProtocol.h; sourceTree = "<group>"; };
+		8630CDC51F27099000243A93 /* ChatModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModelProtocol.h; sourceTree = "<group>"; };
+		8630CDE01F2717E400243A93 /* Chat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat.h; sourceTree = "<group>"; };
+		8630CDE11F2717E400243A93 /* Chat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat.m; sourceTree = "<group>"; };
+		8630CDE61F27182F00243A93 /* ChatModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModelManager.h; sourceTree = "<group>"; };
+		8630CDE71F27182F00243A93 /* ChatModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModelManager.m; sourceTree = "<group>"; };
+		8630CDEF1F2718CC00243A93 /* ChatRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRecordView.h; sourceTree = "<group>"; };
+		8630CDF01F2718CC00243A93 /* ChatRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRecordView.m; sourceTree = "<group>"; };
+		8630CDF11F2718CC00243A93 /* MJRefreshSimpleHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshSimpleHeader.h; sourceTree = "<group>"; };
+		8630CDF21F2718CC00243A93 /* MJRefreshSimpleHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshSimpleHeader.m; sourceTree = "<group>"; };
+		8630CDF51F2721E800243A93 /* ChatPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPerson.h; sourceTree = "<group>"; };
+		8630CDF61F2721E800243A93 /* ChatPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPerson.m; sourceTree = "<group>"; };
+		8630CDF81F2721FB00243A93 /* ChatPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPersonModel.h; sourceTree = "<group>"; };
+		8630CDF91F2721FB00243A93 /* ChatPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPersonModel.m; sourceTree = "<group>"; };
+		8630CDFB1F2722E800243A93 /* ChatPersonModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPersonModelManager.h; sourceTree = "<group>"; };
+		8630CDFC1F2722E800243A93 /* ChatPersonModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPersonModelManager.m; sourceTree = "<group>"; };
+		8630CDFE1F27277500243A93 /* ChatPersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPersonTableViewCell.h; sourceTree = "<group>"; };
+		8630CDFF1F27277500243A93 /* ChatPersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPersonTableViewCell.m; sourceTree = "<group>"; };
+		8630CE001F27277500243A93 /* ChatPersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatPersonTableViewCell.xib; sourceTree = "<group>"; };
+		8670E37D1F45450E00BC4A8F /* Person.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Person.xcassets; sourceTree = "<group>"; };
+		B8EB1874FBE73B836A1ACB00 /* Pods-SpeexChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeexChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeexChat/Pods-SpeexChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8630CCDA1F260AC800243A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630CD581F260B6D00243A93 /* libspeexdsp.a in Frameworks */,
+				8630CD561F260B6D00243A93 /* libogg.a in Frameworks */,
+				8630CD571F260B6D00243A93 /* libspeex.a in Frameworks */,
+				3AC2CD1BD3D055588AA1990A /* libPods-SpeexChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCF31F260AC800243A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCFE1F260AC800243A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8630CCD41F260AC800243A93 = {
+			isa = PBXGroup;
+			children = (
+				8630CCDF1F260AC800243A93 /* SpeexChat */,
+				8630CCF91F260AC800243A93 /* SpeexChatTests */,
+				8630CD041F260AC800243A93 /* SpeexChatUITests */,
+				8630CCDE1F260AC800243A93 /* Products */,
+				BA786799889898CA9266B87B /* Pods */,
+				DB0DFE3BE2789EE54BDD2482 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8630CCDE1F260AC800243A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8630CCDD1F260AC800243A93 /* SpeexChat.app */,
+				8630CCF61F260AC800243A93 /* SpeexChatTests.xctest */,
+				8630CD011F260AC800243A93 /* SpeexChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8630CCDF1F260AC800243A93 /* SpeexChat */ = {
+			isa = PBXGroup;
+			children = (
+				8670E37B1F45441E00BC4A8F /* View */,
+				8630CDC31F27095400243A93 /* Tools */,
+				8630CDC41F27096200243A93 /* Chat */,
+				8670E37A1F45440400BC4A8F /* ChatRecord */,
+				8630CCE31F260AC800243A93 /* AppDelegate.h */,
+				8630CCE41F260AC800243A93 /* AppDelegate.m */,
+				8630CCE61F260AC800243A93 /* ViewController.h */,
+				8630CCE71F260AC800243A93 /* ViewController.m */,
+				8630CDA11F26D57600243A93 /* ChatViewController.h */,
+				8630CDA21F26D57600243A93 /* ChatViewController.m */,
+				8630CD8A1F260DE000243A93 /* PrefixHeader.pch */,
+				8630CCE91F260AC800243A93 /* Main.storyboard */,
+				8630CCEC1F260AC800243A93 /* Assets.xcassets */,
+				8670E37D1F45450E00BC4A8F /* Person.xcassets */,
+				8630CCEE1F260AC800243A93 /* LaunchScreen.storyboard */,
+				8630CDB11F26DC0400243A93 /* Chat.xcdatamodeld */,
+				8630CCF11F260AC800243A93 /* Info.plist */,
+				8630CCE01F260AC800243A93 /* Supporting Files */,
+			);
+			path = SpeexChat;
+			sourceTree = "<group>";
+		};
+		8630CCE01F260AC800243A93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8630CCE11F260AC800243A93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8630CCF91F260AC800243A93 /* SpeexChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8630CCFA1F260AC800243A93 /* SpeexChatTests.m */,
+				8630CCFC1F260AC800243A93 /* Info.plist */,
+			);
+			path = SpeexChatTests;
+			sourceTree = "<group>";
+		};
+		8630CD041F260AC800243A93 /* SpeexChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD051F260AC800243A93 /* SpeexChatUITests.m */,
+				8630CD071F260AC800243A93 /* Info.plist */,
+			);
+			path = SpeexChatUITests;
+			sourceTree = "<group>";
+		};
+		8630CD131F260B6D00243A93 /* OggSpeex */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD141F260B6D00243A93 /* Classes */,
+				8630CD201F260B6D00243A93 /* Format Conversion */,
+				8630CD251F260B6D00243A93 /* lib */,
+				8630CD401F260B6D00243A93 /* OggSpeexManager.h */,
+				8630CD411F260B6D00243A93 /* OggSpeexManager.m */,
+				8630CD421F260B6D00243A93 /* PlayerManager.h */,
+				8630CD431F260B6D00243A93 /* PlayerManager.m */,
+				8630CD441F260B6D00243A93 /* PublicUtility */,
+				8630CD4C1F260B6D00243A93 /* RecorderManager.h */,
+				8630CD4D1F260B6D00243A93 /* RecorderManager.mm */,
+			);
+			path = OggSpeex;
+			sourceTree = "<group>";
+		};
+		8630CD141F260B6D00243A93 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD151F260B6D00243A93 /* AQRecorder.h */,
+				8630CD161F260B6D00243A93 /* AQRecorder.mm */,
+				8630CD171F260B6D00243A93 /* Decapsulator.h */,
+				8630CD181F260B6D00243A93 /* Decapsulator.m */,
+				8630CD191F260B6D00243A93 /* Encapsulator.h */,
+				8630CD1A1F260B6D00243A93 /* Encapsulator.m */,
+				8630CD1B1F260B6D00243A93 /* RawAudioDataPlayer.h */,
+				8630CD1C1F260B6D00243A93 /* RawAudioDataPlayer.m */,
+				8630CD1D1F260B6D00243A93 /* SpeexAllHeaders.h */,
+				8630CD1E1F260B6D00243A93 /* SpeexCodec.h */,
+				8630CD1F1F260B6D00243A93 /* SpeexCodec.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8630CD201F260B6D00243A93 /* Format Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD211F260B6D00243A93 /* OggSpeexFormatConversion.h */,
+				8630CD221F260B6D00243A93 /* OggSpeexFormatConversion.m */,
+				8630CD231F260B6D00243A93 /* OggSpeexWavConversion.h */,
+				8630CD241F260B6D00243A93 /* OggSpeexWavConversion.m */,
+			);
+			path = "Format Conversion";
+			sourceTree = "<group>";
+		};
+		8630CD251F260B6D00243A93 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD261F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.h */,
+				8630CD271F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.m */,
+				8630CD281F260B6D00243A93 /* libogg.a */,
+				8630CD291F260B6D00243A93 /* libspeex.a */,
+				8630CD2A1F260B6D00243A93 /* libspeexdsp.a */,
+				8630CD2B1F260B6D00243A93 /* ogg */,
+				8630CD2F1F260B6D00243A93 /* speex */,
+				8630CD371F260B6D00243A93 /* speexdsp */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8630CD2B1F260B6D00243A93 /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD2C1F260B6D00243A93 /* config_types.h */,
+				8630CD2D1F260B6D00243A93 /* ogg.h */,
+				8630CD2E1F260B6D00243A93 /* os_types.h */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		8630CD2F1F260B6D00243A93 /* speex */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD301F260B6D00243A93 /* speex.h */,
+				8630CD311F260B6D00243A93 /* speex_bits.h */,
+				8630CD321F260B6D00243A93 /* speex_callbacks.h */,
+				8630CD331F260B6D00243A93 /* speex_config_types.h */,
+				8630CD341F260B6D00243A93 /* speex_header.h */,
+				8630CD351F260B6D00243A93 /* speex_stereo.h */,
+				8630CD361F260B6D00243A93 /* speex_types.h */,
+			);
+			path = speex;
+			sourceTree = "<group>";
+		};
+		8630CD371F260B6D00243A93 /* speexdsp */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD381F260B6D00243A93 /* speex_buffer.h */,
+				8630CD391F260B6D00243A93 /* speex_echo.h */,
+				8630CD3A1F260B6D00243A93 /* speex_jitter.h */,
+				8630CD3B1F260B6D00243A93 /* speex_preprocess.h */,
+				8630CD3C1F260B6D00243A93 /* speex_resampler.h */,
+				8630CD3D1F260B6D00243A93 /* speexdsp_config_types.h */,
+				8630CD3E1F260B6D00243A93 /* speexdsp_config_types.h.in */,
+				8630CD3F1F260B6D00243A93 /* speexdsp_types.h */,
+			);
+			path = speexdsp;
+			sourceTree = "<group>";
+		};
+		8630CD441F260B6D00243A93 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD451F260B6D00243A93 /* CADebugMacros.h */,
+				8630CD461F260B6D00243A93 /* CADebugMacros.mm */,
+				8630CD471F260B6D00243A93 /* CAMath.h */,
+				8630CD481F260B6D00243A93 /* CAStreamBasicDescription.h */,
+				8630CD491F260B6D00243A93 /* CAStreamBasicDescription.mm */,
+				8630CD4A1F260B6D00243A93 /* CAXException.h */,
+				8630CD4B1F260B6D00243A93 /* CAXException.mm */,
+			);
+			path = PublicUtility;
+			sourceTree = "<group>";
+		};
+		8630CD601F260B9700243A93 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDDC1F27116800243A93 /* Input */,
+				8630CD611F260B9700243A93 /* Cell */,
+				8630CD6B1F260B9700243A93 /* ChatView.h */,
+				8630CD6C1F260B9700243A93 /* ChatView.m */,
+				8630CD671F260B9700243A93 /* ChatView+Broswer.h */,
+				8630CD681F260B9700243A93 /* ChatView+Broswer.m */,
+				8630CD691F260B9700243A93 /* ChatView+SpeexVoiceProcess.h */,
+				8630CD6A1F260B9700243A93 /* ChatView+SpeexVoiceProcess.m */,
+				8630CD6D1F260B9700243A93 /* ChatView_NoReadNumber.h */,
+				8630CD6E1F260B9700243A93 /* ChatView_NoReadNumber.m */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		8630CD611F260B9700243A93 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8670E3791F45404400BC4A8F /* Cell */,
+				8630CD6F1F260B9700243A93 /* PartView */,
+				8630CD621F260B9700243A93 /* ChatTableViewCell.h */,
+				8630CD631F260B9700243A93 /* ChatTableViewCell.m */,
+				8630CD641F260B9700243A93 /* ChatViewProtocol.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8630CD6F1F260B9700243A93 /* PartView */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD701F260B9700243A93 /* ChatImageView.h */,
+				8630CD711F260B9700243A93 /* ChatImageView.m */,
+				8630CD721F260B9700243A93 /* ChatPartView.h */,
+				8630CD731F260B9700243A93 /* ChatPartView.m */,
+				8630CD741F260B9700243A93 /* ChatTextView.h */,
+				8630CD751F260B9700243A93 /* ChatTextView.m */,
+				8630CD781F260B9700243A93 /* ChatVoiceView.h */,
+				8630CD791F260B9700243A93 /* ChatVoiceView.m */,
+			);
+			name = PartView;
+			path = ../PartView;
+			sourceTree = "<group>";
+		};
+		8630CD8B1F260F3000243A93 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD981F2611F700243A93 /* NSDate+Extension.h */,
+				8630CD991F2611F700243A93 /* NSDate+Extension.m */,
+				8630CD951F26109000243A93 /* NSString+Extension.h */,
+				8630CD961F26109000243A93 /* NSString+Extension.m */,
+				8630CD921F260F8700243A93 /* NSFileManager+Tools.h */,
+				8630CD931F260F8700243A93 /* NSFileManager+Tools.m */,
+				8630CD8C1F260F3D00243A93 /* UIImageBrowser.h */,
+				8630CD8D1F260F3E00243A93 /* UIImageBrowser.m */,
+				8630CD9B1F26123D00243A93 /* UIView+FrameTools.h */,
+				8630CD9C1F26123D00243A93 /* UIView+FrameTools.m */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+		8630CDA41F26DBD500243A93 /* CoreDataTools */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDA51F26DBD500243A93 /* Manager */,
+				8630CDAB1F26DBD500243A93 /* Model */,
+			);
+			path = CoreDataTools;
+			sourceTree = "<group>";
+		};
+		8630CDA51F26DBD500243A93 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDA61F26DBD500243A93 /* CoreDataContext.h */,
+				8630CDA71F26DBD500243A93 /* CoreDataContext.m */,
+				8630CDA81F26DBD500243A93 /* CoreDataModelManager.h */,
+				8630CDA91F26DBD500243A93 /* CoreDataModelManager.m */,
+				8630CDAA1F26DBD500243A93 /* CoreDataModelManagerProtocol.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8630CDAB1F26DBD500243A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDB41F26DC5800243A93 /* CoreDataModelProtocol.h */,
+				8630CDAC1F26DBD500243A93 /* CoreDataModel.h */,
+				8630CDAD1F26DBD500243A93 /* CoreDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8630CDC31F27095400243A93 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD8B1F260F3000243A93 /* Browser */,
+				8630CDA41F26DBD500243A93 /* CoreDataTools */,
+				8630CD131F260B6D00243A93 /* OggSpeex */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		8630CDC41F27096200243A93 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDDB1F27111E00243A93 /* Model */,
+				8630CD601F260B9700243A93 /* ChatView */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		8630CDC81F270D3400243A93 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDD01F270D6200243A93 /* Manager */,
+				8630CDC91F270D4C00243A93 /* NSManagedObject */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		8630CDC91F270D4C00243A93 /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDF51F2721E800243A93 /* ChatPerson.h */,
+				8630CDF61F2721E800243A93 /* ChatPerson.m */,
+				8630CDE01F2717E400243A93 /* Chat.h */,
+				8630CDE11F2717E400243A93 /* Chat.m */,
+			);
+			name = NSManagedObject;
+			sourceTree = "<group>";
+		};
+		8630CDD01F270D6200243A93 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDE61F27182F00243A93 /* ChatModelManager.h */,
+				8630CDE71F27182F00243A93 /* ChatModelManager.m */,
+				8630CDFB1F2722E800243A93 /* ChatPersonModelManager.h */,
+				8630CDFC1F2722E800243A93 /* ChatPersonModelManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		8630CDDB1F27111E00243A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDC51F27099000243A93 /* ChatModelProtocol.h */,
+				8630CD871F260D7800243A93 /* ChatModel.h */,
+				8630CD881F260D7800243A93 /* ChatModel.m */,
+				8630CDF81F2721FB00243A93 /* ChatPersonModel.h */,
+				8630CDF91F2721FB00243A93 /* ChatPersonModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8630CDDC1F27116800243A93 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				8630CD651F260B9700243A93 /* ChatInputView.h */,
+				8630CD661F260B9700243A93 /* ChatInputView.m */,
+				8630CD9E1F26141000243A93 /* ChatAlertView.h */,
+				8630CD9F1F26141000243A93 /* ChatAlertView.m */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		8670E3791F45404400BC4A8F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		8670E37A1F45440400BC4A8F /* ChatRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDC81F270D3400243A93 /* CoreData */,
+				8630CDEF1F2718CC00243A93 /* ChatRecordView.h */,
+				8630CDF01F2718CC00243A93 /* ChatRecordView.m */,
+			);
+			name = ChatRecord;
+			sourceTree = "<group>";
+		};
+		8670E37B1F45441E00BC4A8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8630CDFE1F27277500243A93 /* ChatPersonTableViewCell.h */,
+				8630CDFF1F27277500243A93 /* ChatPersonTableViewCell.m */,
+				8630CE001F27277500243A93 /* ChatPersonTableViewCell.xib */,
+				8630CDF11F2718CC00243A93 /* MJRefreshSimpleHeader.h */,
+				8630CDF21F2718CC00243A93 /* MJRefreshSimpleHeader.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BA786799889898CA9266B87B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8EB1874FBE73B836A1ACB00 /* Pods-SpeexChat.debug.xcconfig */,
+				1A28C898CE661D03CA027AA7 /* Pods-SpeexChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB0DFE3BE2789EE54BDD2482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2568FA7B314449EBC6EDDD9F /* libPods-SpeexChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8630CCDC1F260AC800243A93 /* SpeexChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8630CD0A1F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChat" */;
+			buildPhases = (
+				0E3A2EB14C1A9FCF76F40835 /* [CP] Check Pods Manifest.lock */,
+				8630CCD91F260AC800243A93 /* Sources */,
+				8630CCDA1F260AC800243A93 /* Frameworks */,
+				8630CCDB1F260AC800243A93 /* Resources */,
+				65C9E8BA921A0AABB691909C /* [CP] Embed Pods Frameworks */,
+				0ABAC943F83784FE7C089085 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeexChat;
+			productName = SpeexChat;
+			productReference = 8630CCDD1F260AC800243A93 /* SpeexChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8630CCF51F260AC800243A93 /* SpeexChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8630CD0D1F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChatTests" */;
+			buildPhases = (
+				8630CCF21F260AC800243A93 /* Sources */,
+				8630CCF31F260AC800243A93 /* Frameworks */,
+				8630CCF41F260AC800243A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8630CCF81F260AC800243A93 /* PBXTargetDependency */,
+			);
+			name = SpeexChatTests;
+			productName = SpeexChatTests;
+			productReference = 8630CCF61F260AC800243A93 /* SpeexChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8630CD001F260AC800243A93 /* SpeexChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8630CD101F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChatUITests" */;
+			buildPhases = (
+				8630CCFD1F260AC800243A93 /* Sources */,
+				8630CCFE1F260AC800243A93 /* Frameworks */,
+				8630CCFF1F260AC800243A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8630CD031F260AC800243A93 /* PBXTargetDependency */,
+			);
+			name = SpeexChatUITests;
+			productName = SpeexChatUITests;
+			productReference = 8630CD011F260AC800243A93 /* SpeexChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8630CCD51F260AC800243A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LM;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "flamegrace@hotmail.com";
+				TargetAttributes = {
+					8630CCDC1F260AC800243A93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK25G5QCH4;
+						ProvisioningStyle = Automatic;
+					};
+					8630CCF51F260AC800243A93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK25G5QCH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8630CCDC1F260AC800243A93;
+					};
+					8630CD001F260AC800243A93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK25G5QCH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8630CCDC1F260AC800243A93;
+					};
+				};
+			};
+			buildConfigurationList = 8630CCD81F260AC800243A93 /* Build configuration list for PBXProject "SpeexChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8630CCD41F260AC800243A93;
+			productRefGroup = 8630CCDE1F260AC800243A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8630CCDC1F260AC800243A93 /* SpeexChat */,
+				8630CCF51F260AC800243A93 /* SpeexChatTests */,
+				8630CD001F260AC800243A93 /* SpeexChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8630CCDB1F260AC800243A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8670E37E1F45450E00BC4A8F /* Person.xcassets in Resources */,
+				8630CCF01F260AC800243A93 /* LaunchScreen.storyboard in Resources */,
+				8630CCED1F260AC800243A93 /* Assets.xcassets in Resources */,
+				8630CE021F27277500243A93 /* ChatPersonTableViewCell.xib in Resources */,
+				8630CD591F260B6D00243A93 /* speexdsp_config_types.h.in in Resources */,
+				8630CCEB1F260AC800243A93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCF41F260AC800243A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCFF1F260AC800243A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABAC943F83784FE7C089085 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeexChat/Pods-SpeexChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E3A2EB14C1A9FCF76F40835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65C9E8BA921A0AABB691909C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeexChat/Pods-SpeexChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8630CCD91F260AC800243A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630CE031F2731DF00243A93 /* Chat.xcdatamodeld in Sources */,
+				8630CD531F260B6D00243A93 /* OggSpeexFormatConversion.m in Sources */,
+				8630CCE81F260AC800243A93 /* ViewController.m in Sources */,
+				8630CD9A1F2611F700243A93 /* NSDate+Extension.m in Sources */,
+				8630CD7C1F260B9700243A93 /* ChatView+Broswer.m in Sources */,
+				8630CDFA1F2721FB00243A93 /* ChatPersonModel.m in Sources */,
+				8630CD9D1F26123D00243A93 /* UIView+FrameTools.m in Sources */,
+				8630CE011F27277500243A93 /* ChatPersonTableViewCell.m in Sources */,
+				8630CD5E1F260B6D00243A93 /* CAXException.mm in Sources */,
+				8630CD541F260B6D00243A93 /* OggSpeexWavConversion.m in Sources */,
+				8630CD4E1F260B6D00243A93 /* AQRecorder.mm in Sources */,
+				8630CDEC1F27182F00243A93 /* ChatModelManager.m in Sources */,
+				8630CD521F260B6D00243A93 /* SpeexCodec.m in Sources */,
+				8630CD5A1F260B6D00243A93 /* OggSpeexManager.m in Sources */,
+				8630CD941F260F8700243A93 /* NSFileManager+Tools.m in Sources */,
+				8630CD821F260B9700243A93 /* ChatTextView.m in Sources */,
+				8630CD901F260F3E00243A93 /* UIImageBrowser.m in Sources */,
+				8630CDA01F26141000243A93 /* ChatAlertView.m in Sources */,
+				8630CDA31F26D57600243A93 /* ChatViewController.m in Sources */,
+				8630CD5C1F260B6D00243A93 /* CADebugMacros.mm in Sources */,
+				8630CD891F260D7800243A93 /* ChatModel.m in Sources */,
+				8630CD501F260B6D00243A93 /* Encapsulator.m in Sources */,
+				8630CD5B1F260B6D00243A93 /* PlayerManager.m in Sources */,
+				8630CD971F26109000243A93 /* NSString+Extension.m in Sources */,
+				8630CDFD1F2722E800243A93 /* ChatPersonModelManager.m in Sources */,
+				8630CD7A1F260B9700243A93 /* ChatTableViewCell.m in Sources */,
+				8630CCE51F260AC800243A93 /* AppDelegate.m in Sources */,
+				8630CD7D1F260B9700243A93 /* ChatView+SpeexVoiceProcess.m in Sources */,
+				8630CDAF1F26DBD500243A93 /* CoreDataModelManager.m in Sources */,
+				8630CDF31F2718CC00243A93 /* ChatRecordView.m in Sources */,
+				8630CDE41F2717E400243A93 /* Chat.m in Sources */,
+				8630CD551F260B6D00243A93 /* AVAudioSessionPlayCateGoryTool.m in Sources */,
+				8630CDF41F2718CC00243A93 /* MJRefreshSimpleHeader.m in Sources */,
+				8630CD5D1F260B6D00243A93 /* CAStreamBasicDescription.mm in Sources */,
+				8630CD7B1F260B9700243A93 /* ChatInputView.m in Sources */,
+				8630CDF71F2721E800243A93 /* ChatPerson.m in Sources */,
+				8630CD7F1F260B9700243A93 /* ChatView_NoReadNumber.m in Sources */,
+				8630CD5F1F260B6D00243A93 /* RecorderManager.mm in Sources */,
+				8630CD801F260B9700243A93 /* ChatImageView.m in Sources */,
+				8630CD511F260B6D00243A93 /* RawAudioDataPlayer.m in Sources */,
+				8630CD811F260B9700243A93 /* ChatPartView.m in Sources */,
+				8630CDAE1F26DBD500243A93 /* CoreDataContext.m in Sources */,
+				8630CD7E1F260B9700243A93 /* ChatView.m in Sources */,
+				8630CD4F1F260B6D00243A93 /* Decapsulator.m in Sources */,
+				8630CD841F260B9700243A93 /* ChatVoiceView.m in Sources */,
+				8630CCE21F260AC800243A93 /* main.m in Sources */,
+				8630CDB01F26DBD500243A93 /* CoreDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCF21F260AC800243A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630CCFB1F260AC800243A93 /* SpeexChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8630CCFD1F260AC800243A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630CD061F260AC800243A93 /* SpeexChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8630CCF81F260AC800243A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8630CCDC1F260AC800243A93 /* SpeexChat */;
+			targetProxy = 8630CCF71F260AC800243A93 /* PBXContainerItemProxy */;
+		};
+		8630CD031F260AC800243A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8630CCDC1F260AC800243A93 /* SpeexChat */;
+			targetProxy = 8630CD021F260AC800243A93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8630CCE91F260AC800243A93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8630CCEA1F260AC800243A93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8630CCEE1F260AC800243A93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8630CCEF1F260AC800243A93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8630CD081F260AC800243A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8630CD091F260AC800243A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8630CD0B1F260AC800243A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EB1874FBE73B836A1ACB00 /* Pods-SpeexChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = $SRCROOT/SpeexChat/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = SpeexChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeexChat/OggSpeex/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8630CD0C1F260AC800243A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A28C898CE661D03CA027AA7 /* Pods-SpeexChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = $SRCROOT/SpeexChat/PrefixHeader.pch;
+				INFOPLIST_FILE = SpeexChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeexChat/OggSpeex/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8630CD0E1F260AC800243A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				INFOPLIST_FILE = SpeexChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo.SpeexChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeexChat.app/SpeexChat";
+			};
+			name = Debug;
+		};
+		8630CD0F1F260AC800243A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				INFOPLIST_FILE = SpeexChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo.SpeexChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeexChat.app/SpeexChat";
+			};
+			name = Release;
+		};
+		8630CD111F260AC800243A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				INFOPLIST_FILE = SpeexChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo.SpeexChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeexChat;
+			};
+			name = Debug;
+		};
+		8630CD121F260AC800243A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK25G5QCH4;
+				INFOPLIST_FILE = SpeexChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flamegrace.demo.SpeexChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeexChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8630CCD81F260AC800243A93 /* Build configuration list for PBXProject "SpeexChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630CD081F260AC800243A93 /* Debug */,
+				8630CD091F260AC800243A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8630CD0A1F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630CD0B1F260AC800243A93 /* Debug */,
+				8630CD0C1F260AC800243A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8630CD0D1F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630CD0E1F260AC800243A93 /* Debug */,
+				8630CD0F1F260AC800243A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8630CD101F260AC800243A93 /* Build configuration list for PBXNativeTarget "SpeexChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630CD111F260AC800243A93 /* Debug */,
+				8630CD121F260AC800243A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8630CDB11F26DC0400243A93 /* Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8630CDB21F26DC0400243A93 /* Chat.xcdatamodel */,
+			);
+			currentVersion = 8630CDB21F26DC0400243A93 /* Chat.xcdatamodel */;
+			name = Chat.xcdatamodeld;
+			path = ../Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8630CCD51F260AC800243A93 /* Project object */;
+}
