@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G31" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AirConditionSetting" representedClassName="AirCondtionSetting" syncable="YES">
+        <attribute name="carID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="days" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="windlevel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BriefTravelRecord" syncable="YES">
+        <attribute name="currentCarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentCycleModel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dischargingKwhOfThisDay" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dischargingKwhOfThisMonth" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dischargingKwhOfThisWeek" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dischargingKwhOfThisYear" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dischargingKwhOfTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageArry" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mileageOfThisDay" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageOfThisMonth" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageOfThisWeek" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageOfThisYear" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageOfTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CarInfor" representedClassName="CarInfor" syncable="YES">
+        <attribute name="aircondition_open" optional="YES" attributeType="Integer 16" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="carID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="door_lock" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="indoor_temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="power" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GPSData" syncable="YES">
+        <attribute name="energyConsume" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="locationTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="travelMileage" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="travelRecordModel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TravelRecordModel" inverseName="gpsecords" inverseEntity="TravelRecordModel" syncable="YES"/>
+    </entity>
+    <entity name="LoginDataModel" representedClassName="" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currentCarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="genderType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="headPortraitImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passWord" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleIDS" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="MapFavorite" representedClassName="MapFavorite" syncable="YES">
+        <attribute name="carID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_syned" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="map_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_poiuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="MapSearchHistory" representedClassName="MapSearchHistory" syncable="YES">
+        <attribute name="carID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keywords" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_poiuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="search_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Screenshot" syncable="YES">
+        <attribute name="createdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currentCarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="screenshotName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ThumbnailModelManagedObject" representedClassName="" syncable="YES">
+        <attribute name="app_phonenumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="automobile_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_creat_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="thumbnail_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="thumbnail_image_length" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="thumbnail_shooting_location" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TravelRecordModel" representedClassName="TravelRecordModel" syncable="YES">
+        <attribute name="altitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currentCarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dischargingKwhOfThisTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hundredsKilometersAccelerate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="maximumSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mileageOfThisTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numOfBreakSpeed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numOfRapidlySpeedingUp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numOfSharpTurn" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numOfSuddenBraking" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="stardDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="traceid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gpsecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GPSData" inverseName="travelRecordModel" inverseEntity="GPSData" syncable="YES"/>
+    </entity>
+    <entity name="VideoTape" syncable="YES">
+        <attribute name="createdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currentCarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tapedTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoTapeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AirConditionSetting" positionX="-2961" positionY="-450" width="128" height="180"/>
+        <element name="BriefTravelRecord" positionX="-2934" positionY="-423" width="128" height="270"/>
+        <element name="CarInfor" positionX="-2961" positionY="-450" width="128" height="150"/>
+        <element name="GPSData" positionX="-2961" positionY="-450" width="128" height="165"/>
+        <element name="LoginDataModel" positionX="-2961" positionY="-450" width="128" height="180"/>
+        <element name="MapFavorite" positionX="-54" positionY="18" width="128" height="135"/>
+        <element name="MapSearchHistory" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Screenshot" positionX="-2961" positionY="-450" width="128" height="105"/>
+        <element name="ThumbnailModelManagedObject" positionX="-3159" positionY="-594" width="459" height="150"/>
+        <element name="TravelRecordModel" positionX="-2952" positionY="-441" width="128" height="285"/>
+        <element name="VideoTape" positionX="-2952" positionY="-441" width="128" height="120"/>
+    </elements>
+</model>

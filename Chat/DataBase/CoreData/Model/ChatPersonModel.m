@@ -1,0 +1,19 @@
+//
+//  ChatPersonModel.m
+//  SpeexChat
+//
+//  Created by lijj on 2017/7/25.
+//  Copyright © 2017年 leapmotor. All rights reserved.
+//
+
+#import "ChatPersonModel.h"
+
+@implementation ChatPersonModel
+
+@synthesize managedObjectID = _managedObjectID;
+@synthesize personId = _personId;
+@synthesize nickName = _nickName;
+@synthesize avatarImage = _avatarImage;
+@synthesize accountID = _accountID;
+
+@end
