@@ -1,9 +1,9 @@
 //
 //  UIView+FrameTools.m
-//  leapmotor
+//  Flame Grace
 //
 //  Created by lijj on 16/9/14.
-//  Copyright © 2016年 leapmotor. All rights reserved.
+//  Copyright © 2016年 Flame Grace. All rights reserved.
 //
 
 #import "UIView+NT_FrameTools.h"

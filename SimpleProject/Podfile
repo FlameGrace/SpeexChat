@@ -3,6 +3,7 @@ inhibit_all_warnings!
 target 'Chat' do
    pod 'MJRefresh'
    pod 'TimeOutHandle'
+   pod 'ClearSystemGestureEffect'
    pod 'CoreDataTools',:git => 'https://github.com/FlameGrace/CoreDataTools.git'
    pod 'OggSpeex',:git => 'https://github.com/FlameGrace/OggSpeex.git'
 end

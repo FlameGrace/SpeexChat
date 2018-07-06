@@ -3,7 +3,7 @@
 //  SpeexChat
 //
 //  Created by MAC on 2018/3/3.
-//  Copyright © 2018年 leapmotor. All rights reserved.
+//  Copyright © 2018年 Flame Grace. All rights reserved.
 //
 
 #ifndef ChatDefineHeader_h

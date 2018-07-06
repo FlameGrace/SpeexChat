@@ -3,7 +3,7 @@
 //  Chat
 //
 //  Created by MAC on 2018/5/11.
-//  Copyright © 2018年 leapmotor. All rights reserved.
+//  Copyright © 2018年 Flame Grace. All rights reserved.
 //
 
 #import "ChatViewVoiceInputController.h"

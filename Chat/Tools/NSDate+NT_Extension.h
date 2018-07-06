@@ -1,9 +1,9 @@
 //
 //  NSDate+Extension.h
-//  leapmotor
+//  Flame Grace
 //
-//  Created by lijj on 16/9/29.
-//  Copyright © 2016年 leapmotor. All rights reserved.
+//  Created by Flame Grace on 16/9/29.
+//  Copyright © 2016年 Flame Grace. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

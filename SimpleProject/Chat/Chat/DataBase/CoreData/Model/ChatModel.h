@@ -1,9 +1,9 @@
 //
 //  ChatModel.h
-//  leapmotor
+//  Flame Grace
 //
 //  Created by lijj on 2017/3/24.
-//  Copyright © 2017年 leapmotor. All rights reserved.
+//  Copyright © 2017年 Flame Grace. All rights reserved.
 //  聊天模块基础模型类，可被车机聊天，车友互动等情况复用
 
 #import <UIKit/UIKit.h>

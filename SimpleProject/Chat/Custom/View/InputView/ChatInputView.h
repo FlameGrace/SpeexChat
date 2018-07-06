@@ -1,9 +1,9 @@
 //
 //  CarMessageInputView.h
-//  leapmotor
+//  Flame Grace
 //
 //  Created by lijj on 2017/2/27.
-//  Copyright © 2017年 leapmotor. All rights reserved.
+//  Copyright © 2017年 Flame Grace. All rights reserved.
 //  车机语音聊天输入模块，内置文字输入和语音输入
 
 #import <UIKit/UIKit.h>

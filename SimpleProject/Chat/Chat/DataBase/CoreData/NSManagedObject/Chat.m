@@ -1,9 +1,9 @@
 //
 //  CarAppChatMessage.m
-//  leapmotor
+//  Flame Grace
 //
 //  Created by lijj on 16/12/17.
-//  Copyright © 2016年 leapmotor. All rights reserved.
+//  Copyright © 2016年 Flame Grace. All rights reserved.
 //
 
 #import "Chat.h"

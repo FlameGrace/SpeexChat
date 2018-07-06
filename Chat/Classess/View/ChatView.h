@@ -1,9 +1,9 @@
 //
 //  ChatView.h
-//  leapmotor
+//  Flame Grace
 //
-//  Created by lijj on 2017/3/24.
-//  Copyright © 2017年 leapmotor. All rights reserved.
+//  Created by Flame Grace on 2017/3/24.
+//  Copyright © 2017年 Flame Grace. All rights reserved.
 //  一个普通聊天视图,不包含语音播放，识别等处理
 
 #import <UIKit/UIKit.h>

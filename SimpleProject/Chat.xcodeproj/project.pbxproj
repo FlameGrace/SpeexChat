@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0496BFF020AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496BFEE20AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.m */; };
 		0496BFF620AC088200B4CC83 /* UIView+NT_FrameTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496BFF420AC088200B4CC83 /* UIView+NT_FrameTools.m */; };
 		0496C03820AC0BD700B4CC83 /* ChatViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496BFFF20AC0BD700B4CC83 /* ChatViewBaseController.m */; };
 		0496C03920AC0BD700B4CC83 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496C00920AC0BD700B4CC83 /* ChatTableViewCell.m */; };
@@ -74,8 +73,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0496BFEE20AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ClearSystemGestureEffect.m"; sourceTree = "<group>"; };
-		0496BFEF20AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ClearSystemGestureEffect.h"; sourceTree = "<group>"; };
 		0496BFF420AC088200B4CC83 /* UIView+NT_FrameTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NT_FrameTools.m"; sourceTree = "<group>"; };
 		0496BFF520AC088200B4CC83 /* UIView+NT_FrameTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NT_FrameTools.h"; sourceTree = "<group>"; };
 		0496BFFE20AC0BD700B4CC83 /* ChatViewBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewBaseController.h; sourceTree = "<group>"; };
@@ -230,8 +227,6 @@
 			children = (
 				0496BFF520AC088200B4CC83 /* UIView+NT_FrameTools.h */,
 				0496BFF420AC088200B4CC83 /* UIView+NT_FrameTools.m */,
-				0496BFEF20AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.h */,
-				0496BFEE20AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -786,7 +781,6 @@
 				04F3F24020A570CC00635D1E /* TextChatPartView.m in Sources */,
 				0496C03C20AC0BD700B4CC83 /* ChatRecordViewController.m in Sources */,
 				04F3F24320A570CC00635D1E /* ChatBaseTableViewCell.m in Sources */,
-				0496BFF020AC044C00B4CC83 /* UIView+ClearSystemGestureEffect.m in Sources */,
 				04F3F1A920A5645700635D1E /* ChatViewInputController.m in Sources */,
 				0496C04E20AC0DFE00B4CC83 /* ChatDemoViewController.m in Sources */,
 				04F3F24F20A576B200635D1E /* ChatView+SpeexVoiceProcess.m in Sources */,

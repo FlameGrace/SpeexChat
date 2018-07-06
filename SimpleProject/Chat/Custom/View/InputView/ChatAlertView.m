@@ -1,9 +1,9 @@
 //
 //  CarMessageCancelView.m
-//  leapmotor
+//  Flame Grace
 //
 //  Created by lijj on 2017/2/27.
-//  Copyright © 2017年 leapmotor. All rights reserved.
+//  Copyright © 2017年 Flame Grace. All rights reserved.
 //
 
 #import "ChatAlertView.h"
