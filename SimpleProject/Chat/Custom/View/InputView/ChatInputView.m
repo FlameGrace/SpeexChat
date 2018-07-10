@@ -8,8 +8,7 @@
 
 #import "ChatInputView.h"
 #import "TimeOutHandleCenter.h"
-#import "UIView+ClearSystemGestureEffect.h"
-
+#import "NSObject+ClearSystemGestureEffect.h"
 @interface ChatInputView() <UITextViewDelegate>
 
 @property (readwrite, strong, nonatomic) Class chatModelClass;
